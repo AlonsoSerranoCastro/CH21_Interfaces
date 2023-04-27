@@ -1,4 +1,6 @@
-public class Triangulo {
+import calculo.Calculo;
+
+public class Triangulo implements Calculo {
 	private String name;
 	private double base;
 	private double altura;
